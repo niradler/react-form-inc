@@ -39,11 +39,11 @@ class App extends Component {
         </header>
         <div className="container">
           <div className="row">
-            <div className="col-md-3" id="left"></div>
+            <div className="col-md-1" id="left"></div>
             <h2>Create new todo</h2>
             
             <Form
-              className="col-md-6"
+              className="col-md-5"
               onSubmit={this.handleSubmit}
               btn={{
               text: "Add",
@@ -98,7 +98,7 @@ class App extends Component {
                 }
               }
             ]}/>
-            <div className="col-md-3" id="right">
+            <div className="col-md-5" id="right">
               {this.state.todos.length > 0
                 ? <h3>Todos:</h3>
                 : ''}
