@@ -1,13 +1,12 @@
 {
-  "name": "react-form-validation",
+  "name": "form-moudle",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://niradler.github.io/react-form-validation/build",
   "dependencies": {
-    "Validator": "^1.0.5",
-    "bootstrap": "^3.3.7",
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-form": "^2.12.1",
+    "react-form-inc": "^2.0.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {

@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Form from './Form';
-import Input from './Input';
+import {Form} from 'react-form-inc';
+
 class App extends Component {
   constructor(props) {
     super();
@@ -41,6 +41,7 @@ class App extends Component {
           <div className="row">
             <div className="col-md-3" id="left"></div>
             <h2>Create new todo</h2>
+            
             <Form
               className="col-md-6"
               onSubmit={this.handleSubmit}
@@ -69,7 +70,7 @@ class App extends Component {
                   }
                 },
                 props: {
-                  className: 'form-control  input-md',
+                  className: 'form-control input-md',
                   name: "title",
                   type: "text"
                 }
