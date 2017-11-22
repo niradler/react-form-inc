@@ -1,6 +1,6 @@
 {
   "name": "react-form-inc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "react form components",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "url": "https://github.com/niradler/react-form-inc/issues"
   },
   "homepage": "https://github.com/niradler/react-form-inc#readme",
-    "dependencies": {
-      "Validator": "^1.0.5",
-      "react": "^16.1.0"
-    }
+  "dependencies": {
+    "Validator": "^1.0.5",
+    "react": "^16.1.0"
+  }
 }
