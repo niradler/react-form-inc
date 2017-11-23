@@ -1,11 +1,12 @@
 {
-  "name": "form-moudle",
+  "name": "form-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http: //niradler.github.io/react-form-inc",
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-form-inc": "^2.1.0",
+    "react-form-inc": "^2.2.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
