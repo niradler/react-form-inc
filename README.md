@@ -9,7 +9,7 @@ Actually in react you kind of working harder then angular, for example, you need
 
 ----
 ## usage
-1. npm i react-form-inc
+1. npm i react-form-inc --save or yarn add react-form-inc
 2. import {Form,Input} from 'react-form-inc';
 
 ----
