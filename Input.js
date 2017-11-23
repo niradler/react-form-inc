@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-const Validator = require('Validator')
+import {Validator} from './util';
+
 class Input extends Component {
     constructor(props) {
         super(props);

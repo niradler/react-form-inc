@@ -26,10 +26,10 @@ class App extends Component {
       })
     } else {
       alert('form is not valid!!!')
-      console.log(fromState.errors)
+      console.log('form not valid',fromState)
     }
-
   }
+
   render() {
     return (
       <div className="App ">
@@ -42,9 +42,9 @@ class App extends Component {
             <div className="col-md-1" id="left"></div>
             <h2>Create new todo</h2>
             
-            <Form
+            <Form          
               className="col-md-5"
-              onSubmit={this.handleSubmit}
+              OnSubmit={this.handleSubmit}
               btn={{
               text: "Add",
               props: {
