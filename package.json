@@ -22,5 +22,8 @@
   "dependencies": {
     "Validator": "^1.0.5",
     "react": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
   }
 }
